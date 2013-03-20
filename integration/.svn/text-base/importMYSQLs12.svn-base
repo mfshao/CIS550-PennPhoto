@@ -1,0 +1,76 @@
+1.
+load data local infile '/home/cis550/workspace/pennphotodata/s12t1.xml' into table user
+fields terminated by ','
+enclosed by '"'
+lines terminated by ';\n'
+(uid, firstname, lastname, email, dob, gender, address, type, password)
+
+2.
+load data local infile '/home/cis550/workspace/pennphotodata/s12t2.xml' into table professor
+fields terminated by ','
+enclosed by '"'
+lines terminated by ';\n'
+(pid, uid, researchArea, office)
+
+3.
+load data local infile '/home/cis550/workspace/pennphotodata/s12t3.xml' into table student
+fields terminated by ','
+enclosed by '"'
+lines terminated by ';\n'
+(sid, uid, major, gpa, advisor, yearsAdvised)
+
+4.
+load data local infile '/home/cis550/workspace/pennphotodata/s12t4.xml' into table institution
+fields terminated by ','
+enclosed by '"'
+lines terminated by ';\n'
+(insName, uid)
+
+5.
+load data local infile '/home/cis550/workspace/pennphotodata/s12t5.xml' into table interest
+fields terminated by ','
+enclosed by '"'
+lines terminated by ';\n'
+(uid, interest)
+
+6.
+load data local infile '/home/cis550/workspace/pennphotodata/s12t6.xml' into table circle
+fields terminated by ','
+enclosed by '"'
+lines terminated by ';\n'
+(cid, uid, name)
+
+7.
+load data local infile '/home/cis550/workspace/pennphotodata/s12t7.xml' into table friend
+fields terminated by ','
+enclosed by '"'
+lines terminated by ';\n'
+(cid, uid)
+
+8.
+load data local infile '/home/cis550/workspace/pennphotodata/s12t8.xml' into table photo
+fields terminated by ','
+enclosed by '"'
+lines terminated by ';\n'
+(photoid, uid, url)
+
+9.
+load data local infile '/home/cis550/workspace/pennphotodata/s12t9.xml' into table rating
+fields terminated by ','
+enclosed by '"'
+lines terminated by ';\n'
+(photoid, uid, score)
+
+10.
+load data local infile '/home/cis550/workspace/pennphotodata/s12t10.xml' into table tag
+fields terminated by ','
+enclosed by '"'
+lines terminated by ';\n'
+(photoid, tag)
+
+11.
+load data local infile '/home/cis550/workspace/pennphotodata/s12t11.xml' into table visibility
+fields terminated by ','
+enclosed by '"'
+lines terminated by ';\n'
+(photoid, uid)

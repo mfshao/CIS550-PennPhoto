@@ -1,0 +1,2 @@
+serviceClass: edu.upenn.cis550.group20.client.model.DataService
+path: E42A922F214704DA5A4ABF7D0CD02C55.gwt.rpc

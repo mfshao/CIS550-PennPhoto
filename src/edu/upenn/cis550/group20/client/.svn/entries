@@ -1,0 +1,34 @@
+10
+
+dir
+44
+svn+ssh://mshao@eniac.seas.upenn.edu/home1/h/haoxu/cis550-project-g20/pennphoto/src/edu/upenn/cis550/group20/client
+svn+ssh://mshao@eniac.seas.upenn.edu/home1/h/haoxu/cis550-project-g20
+
+
+
+2011-12-17T00:09:09.874648Z
+44
+haoxu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d0cf4fc-1550-11e1-827a-8d200879d438
+
+model
+dir
+
+view
+dir
+
